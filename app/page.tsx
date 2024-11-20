@@ -1,10 +1,10 @@
 import Image from "next/image";
 import heroImg from "@/public/welcome-hero.jpg";
-import Highlight from "@/homeComponents/Highlight";
-import Viewer3D from "@/homeComponents/Viewer3D";
-import AboutM3 from "@/homeComponents/AboutM3";
-import Display from "@/homeComponents/Display";
-import Augment from "@/homeComponents/Augment";
+import Highlight from "@/components/home/Highlight";
+import Viewer3D from "@/components/home/Viewer3D";
+import AboutM3 from "@/components/home/AboutM3";
+import Display from "@/components/home/Display";
+import Augment from "@/components/home/Augment";
 
 export default function Home() {
   return (
